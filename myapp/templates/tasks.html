@@ -1,0 +1,12 @@
+<h1>TASKS</h1>
+
+{% for tarea in tareas %}
+<div>
+    <h1>{{tarea.title}}</h1>
+    <p>{{tarea.description}}</p>
+    <p>{{tarea.project.name}}</p>
+    <button>delete</button>
+    <button>Done</button>
+    
+</div>
+{% endfor %}
